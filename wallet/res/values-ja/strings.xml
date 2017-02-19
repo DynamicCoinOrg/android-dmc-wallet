@@ -39,9 +39,9 @@
   <string name="wallet_options_encrypt_keys_change">送金用PINを変更</string>
   <string name="wallet_options_safety">安全の注意事項</string>
   <string name="wallet_options_donate">チップ/寄付</string>
-  <string name="wallet_donate_address_label">Bitcoin Walletへ寄付する</string>
+  <string name="wallet_donate_address_label">DynamicCoin Walletへ寄付する</string>
   <string name="wallet_low_storage_dialog_title">内部デバイスのストレージ容量が残りわずかです!</string>
-  <string name="wallet_low_storage_dialog_msg">Bitcoin Walletはトランザクションやブロックを記憶するのに内部ストレージを使用します。もし容量が不足した場合、動作しなくなりあなたのビットコインが危機にさらされるでしょう!\n\n不要なアプリを削除するためにアプリケーションマネージャを開きますか?</string>
+  <string name="wallet_low_storage_dialog_msg">DynamicCoin Walletはトランザクションやブロックを記憶するのに内部ストレージを使用します。もし容量が不足した場合、動作しなくなりあなたのビットコインが危機にさらされるでしょう!\n\n不要なアプリを削除するためにアプリケーションマネージャを開きますか?</string>
   <string name="wallet_low_storage_dialog_button_apps">アプリの管理</string>
   <string name="wallet_timeskew_dialog_title">時刻の設定を確認してください!</string>
   <string name="wallet_timeskew_dialog_msg">デバイスの時間が%d分ずれてます。 この問題の為、ビットコインのやり取りが出来なくなる可能性があります。\n\n正確な時間とタイムゾーンを設定してください。</string>

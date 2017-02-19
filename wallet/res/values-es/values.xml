@@ -2,11 +2,11 @@
 <resources>
 
 	<string-array name="preferences_precision_labels">
-		<item>BTC, 8 dígitos</item>
-		<item>BTC, 6 dígitos</item>
-		<item>BTC, 4 dígitos</item>
-		<item>mBTC, 2 dígitos</item>
-		<item>µBTC, sin dígitos</item>
+		<item>DMC, 8 dígitos</item>
+		<item>DMC, 6 dígitos</item>
+		<item>DMC, 4 dígitos</item>
+		<item>mDMC, 2 dígitos</item>
+		<item>µDMC, sin dígitos</item>
 	</string-array>
 
 </resources>

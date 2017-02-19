@@ -14,11 +14,11 @@
 		<item>0/6</item>
 	</string-array>
 	<string-array name="preferences_precision_labels">
-		<item>BTC, 8 digits</item>
-		<item>BTC, 6 digits</item>
-		<item>BTC, 4 digits</item>
-		<item>mBTC, 2 digits</item>
-		<item>µBTC, no digits</item>
+		<item>DMC, 8 digits</item>
+		<item>DMC, 6 digits</item>
+		<item>DMC, 4 digits</item>
+		<item>mDMC, 2 digits</item>
+		<item>µDMC, no digits</item>
 	</string-array>
 
 </resources>

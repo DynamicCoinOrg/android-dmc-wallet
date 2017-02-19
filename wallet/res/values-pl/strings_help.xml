@@ -4,11 +4,11 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			Po lewej górnej stronie ekranu wyświetlany jest Twój aktualnie wybrany adres Bitcoin, który inne osoby muszą znać żeby wysłać Ci Bitcoin.
+			Po lewej górnej stronie ekranu wyświetlany jest Twój aktualnie wybrany adres DynamicCoin, który inne osoby muszą znać żeby wysłać Ci DynamicCoin.
 			Naciśnij żeby, go zmienić.
 		</p>
 		<p>
-			Kod QR po prawej zawiera Twój adres Bitcoin i może zeskanowany przez inną osobę.
+			Kod QR po prawej zawiera Twój adres DynamicCoin i może zeskanowany przez inną osobę.
 			Naciśnij na kod QR żeby otrzymać jego większą wersje.
 		</p>
 		<p>
@@ -31,15 +31,15 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Przy pomocy tego dialogu, możesz wysłać prośbę o Bitcoiny do innej osoby, tak jakbyś wystawił jej rachunek do zapłacenia. Osoba ta powinna mieć zainstalowany Bitcoin Wallet.
+			Przy pomocy tego dialogu, możesz wysłać prośbę o Bitcoiny do innej osoby, tak jakbyś wystawił jej rachunek do zapłacenia. Osoba ta powinna mieć zainstalowany DynamicCoin Wallet.
 		</p>
 		<p>
-			U góry, wpisz kwotę Bitcoin, o którą chcesz zapytać.
+			U góry, wpisz kwotę DynamicCoin, o którą chcesz zapytać.
 		</p>
 		<p>
 			Potem osoba wczyta wytworzony kod QR,
 			albo Ty możesz wysłać rachunek za pomocą guzika Opublikuj na listwie menu.
-			Odbiorca będzie musiał otworzyć Bitcoin URL zawarty w wysłanej wiadomości.
+			Odbiorca będzie musiał otworzyć DynamicCoin URL zawarty w wysłanej wiadomości.
 		</p>
 		<p>
 			Osoba, która otrzymała wysłane zapytanie otrzyma gotowy i wypełniony formularz wysyłania Bitcoinów.
@@ -51,15 +51,15 @@
 <![CDATA[
 		<p>
 			Zainicjowałeś proces wysyłania monet.
-			Przyszedłeś tutaj przez główny ekran albo naciskając na Bitcoin URL w Twojej mobilnej przeglądarce.
+			Przyszedłeś tutaj przez główny ekran albo naciskając na DynamicCoin URL w Twojej mobilnej przeglądarce.
 		</p>
 		<p>
-			Wpisz adres Bitcoin na który ma wpłynąć zapłata.
+			Wpisz adres DynamicCoin na który ma wpłynąć zapłata.
 			Wyświetlone zostaną podpowiedzi adresu z danych Twojej książki adresowej.
-			Możesz też skanować kody QR z adresami Bitcoin albo zapytaniami Bitcoin naciskając guzik QR w menu.
+			Możesz też skanować kody QR z adresami DynamicCoin albo zapytaniami DynamicCoin naciskając guzik QR w menu.
 		</p>
 		<p>
-			Poniżej widzisz ile Bitcoin możesz wydać w tym momencie.
+			Poniżej widzisz ile DynamicCoin możesz wydać w tym momencie.
 			Rożnica ze stanem konta na głównym ekranie wynika z jeszcze nie potwierdzonych monet, które nie mogą jeszcze zostać wydane.
 		</p>
 		<p>
@@ -80,16 +80,16 @@
 	<string name="help_safety">
 <![CDATA[
 		<p>
-			<b>Pare słów o bezpieczeństwie twoich Bitcoin:</b>
+			<b>Pare słów o bezpieczeństwie twoich DynamicCoin:</b>
 		</p>
 		<p>
-			Bitcoin w Bitcoin Wallet są magazynowane na urządzeniu.
+			DynamicCoin w DynamicCoin Wallet są magazynowane na urządzeniu.
 			<b>Jak zgubisz swoje urządzenie, zgubisz też swój portfel i Bitcoiny.</b>
 			Zupełnie jak pieniądze w Twoim fizycznym portfelu.
 		</p>
 		<p>
-			<b>Zanim odinstalujesz Bitcoin Wallet</b> (albo wymażesz dane aplikacji/wyczyścisz swoje urządzenie), <b>przetransferuj twoje Bitcoin na inny portfel</b>.
-			Każdy pozostały Bitcoin będzie stracony.
+			<b>Zanim odinstalujesz DynamicCoin Wallet</b> (albo wymażesz dane aplikacji/wyczyścisz swoje urządzenie), <b>przetransferuj twoje DynamicCoin na inny portfel</b>.
+			Każdy pozostały DynamicCoin będzie stracony.
 		</p>
 		<p>
 			<b>Żadne transakcje nie mogą zostać cofnięte</b>.
@@ -102,7 +102,7 @@
 		</p>
 		<p>
 			Utrzymuj niskie ryzyko!
-			<b>Używaj Bitcoin Wallet do przetrzymywania jedynie małych ilości Bitcoin</b> do użytku codziennego.
+			<b>Używaj DynamicCoin Wallet do przetrzymywania jedynie małych ilości DynamicCoin</b> do użytku codziennego.
 		</p>
 	]]>
 	</string>

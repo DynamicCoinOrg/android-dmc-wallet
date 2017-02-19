@@ -3,11 +3,11 @@
   <string name="help_wallet">
 <![CDATA[
 		<p>
-			Horní levá část obrazovky zobrazuje Vaši aktuální Bitcoin bilanci včetně odpovídající částky ve vaší lokální měně.
+			Horní levá část obrazovky zobrazuje Vaši aktuální DynamicCoin bilanci včetně odpovídající částky ve vaší lokální měně.
 			Kliknutím na částku přejdete do seznamu lokálních měn, kde si můžete vybrat jinou.
 		</p>
 		<p>
-			QR kód na pravé straně obsahuje Vaši Bitcoin adresu a může být použita pro naskenování druhou stranou.
+			QR kód na pravé straně obsahuje Vaši DynamicCoin adresu a může být použita pro naskenování druhou stranou.
 			Klepněte na QR kód pro zobrazení větší verze.
 		</p>
 		<p>
@@ -25,7 +25,7 @@
   <string name="help_request_coins">
 <![CDATA[
 		<p>
-			Pomocí tohoto dialogu můžete vyžádat Bitcoiny od někoho jiného (kdo by měl také mít nainstalovanou aplikaci Bitcoin Wallet).
+			Pomocí tohoto dialogu můžete vyžádat Bitcoiny od někoho jiného (kdo by měl také mít nainstalovanou aplikaci DynamicCoin Wallet).
 		</p>
 		<p>
 			Nejprve zadejte množství Bitcoinů, které chcete vyžádat.
@@ -61,7 +61,7 @@
 		</p>
 		<p>
 			Transakce můžete provádět, i když jste právě offline.
-			Budou provedeny při dalším spuštění aplikace Bitcoin Wallet.
+			Budou provedeny při dalším spuštění aplikace DynamicCoin Wallet.
 			Pokud chcete transakci provést co nejrychleji, ujistěte se, že máte rychlé připojení (například jste připojeni pomocí bezdrátové sítě).
 		</p>
 		<p>
@@ -77,12 +77,12 @@
 			Několik slov o bezpečnosti vašich Bitcoinů:
 		</p>
 		<p>
-			Bitcoiny v aplikaci Bitcoin Wallet jsou uloženy ve vašem zařízení.
+			Bitcoiny v aplikaci DynamicCoin Wallet jsou uloženy ve vašem zařízení.
 			<b>Pokud o zařízení přijdete, přijdete i o Bitcoiny v něm.</b>
 			Stejně jako při ztrátě normální peněženky.
 		</p>
 		<p>
-			<b>Před odinstalací aplikace Bitcoin Wallet</b> (nebo při odstraňování dat/wipe), <b> si přepošlete zůstatek do jiné peněženky</b>.
+			<b>Před odinstalací aplikace DynamicCoin Wallet</b> (nebo při odstraňování dat/wipe), <b> si přepošlete zůstatek do jiné peněženky</b>.
 			Jakékoliv zůstavší Bitcony budou nenávratně ztraceny.
 		</p>
 		<p>
@@ -96,7 +96,7 @@
 		</p>
 		<p>
 			Neriskujte zbytečně!
-			<b>V aplikaci Bitcoin Wallet mějte pouze malé částky</b> pro rychlé použití.
+			<b>V aplikaci DynamicCoin Wallet mějte pouze malé částky</b> pro rychlé použití.
 		</p>
 	]]>
 	</string>

@@ -4,7 +4,7 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			V zgornjem levem kotu zaslona je zapisan vaš bitcoin naslov. Oseba, ki vam pošilja novce, mora poznati na naslov.
+			V zgornjem levem kotu zaslona je zapisan vaš DynamicCoin naslov. Oseba, ki vam pošilja novce, mora poznati na naslov.
 			Z dotikom ga lahko spremenite.
 		</p>
 		<p>
@@ -33,7 +33,7 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			S pomočjo tega pogovornega okna lahko drugi osebi, ki že ima nameščeno bitcoin denarnico, posredujete zahtevek za plačilo.
+			S pomočjo tega pogovornega okna lahko drugi osebi, ki že ima nameščeno DynamicCoin denarnico, posredujete zahtevek za plačilo.
 		</p>
 		<p>
 			Najprej lahko vnesete znesek za plačilo.
@@ -66,7 +66,7 @@
 		</p>
 		<p>
 			Plačilo lahko vnesete tudi, če niste povezani v omrežje.
-			Plačilo bo poslano, ko naslednjič zaženete Bitcoin Wallet.
+			Plačilo bo poslano, ko naslednjič zaženete DynamicCoin Wallet.
 			Če želite, da se plačilo izvede čim hitreje, poskrbite, da boste dobro povezani v omrežje (npr. prek lokalnega Wi-Fi omrežja).
 		</p>
 		<p>

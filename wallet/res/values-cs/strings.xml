@@ -38,9 +38,9 @@
   <string name="wallet_options_encrypt_keys_change">Změnit PIN pro utrácení.</string>
   <string name="wallet_options_safety">Bezpečnost</string>
   <string name="wallet_options_donate">Přispěj</string>
-  <string name="wallet_donate_address_label">Dar pro Bitcoin Wallet</string>
+  <string name="wallet_donate_address_label">Dar pro DynamicCoin Wallet</string>
   <string name="wallet_low_storage_dialog_title">Na vnitřním úložišti není dostatek místa!</string>
-  <string name="wallet_low_storage_dialog_msg">Bitcoin Wallet používá vnitřní úložiště pro ukládání transakcí a bloků. Pokud dojde místo v ůložišti, přestane fungovat a vaše Bitcoiny jsou vystaveny riziku ztráty!\n\nChcete otevřít Správu Aplikací a odinstalovat nepotřebné aplikace?</string>
+  <string name="wallet_low_storage_dialog_msg">DynamicCoin Wallet používá vnitřní úložiště pro ukládání transakcí a bloků. Pokud dojde místo v ůložišti, přestane fungovat a vaše Bitcoiny jsou vystaveny riziku ztráty!\n\nChcete otevřít Správu Aplikací a odinstalovat nepotřebné aplikace?</string>
   <string name="wallet_low_storage_dialog_button_apps">Spravovat aplikace</string>
   <string name="wallet_timeskew_dialog_title">Zkontrolujte vaše nastavení času!</string>
   <string name="wallet_timeskew_dialog_msg">Čas vašeho přístroje vypnut %d minut. Asi nelze odesílat nebo přijímat Bitcoiny v důsledku tohoto problému.\n\nMěli byste zkontrolovat a opravit váš čas a nastavení časového pásma.</string>
@@ -50,7 +50,7 @@
   <string name="wallet_version_dialog_button_market">Google Play</string>
   <string name="wallet_version_dialog_button_binary">Stáhnout</string>
   <string name="wallet_old_sdk_dialog_title">Android verze je příliš stará</string>
-  <string name="wallet_old_sdk_dialog_message">Je pravděpodobné, že jedna z následujících verzí Bitcoin Wallet nebude podporovat vaše zařízení. V některých případech může být v takové situaci komplikované utratit Bitcoiny na tomto zařízení.\n\nPokud si nejste jistí co děláte, tak se vám doporučuje tyto Bitcoiny přemístit brzy do jiného zařízení.</string>
+  <string name="wallet_old_sdk_dialog_message">Je pravděpodobné, že jedna z následujících verzí DynamicCoin Wallet nebude podporovat vaše zařízení. V některých případech může být v takové situaci komplikované utratit Bitcoiny na tomto zařízení.\n\nPokud si nejste jistí co děláte, tak se vám doporučuje tyto Bitcoiny přemístit brzy do jiného zařízení.</string>
   <string name="send_coins_activity_title">Zaslat Bitcoiny</string>
   <string name="send_coins_fragment_request_payment_request_progress">Stahuji podpis z %s…</string>
   <string name="send_coins_fragment_request_payment_request_failed_title">Stahováni podpisu selhalo</string>
@@ -117,7 +117,7 @@
   <string name="request_coins_fragment_initiate_request_nfc">Nebo poklepejte na zařízení vybavené NFC.</string>
   <string name="request_coins_clipboard_msg">Požadavek na platbu zkopírován do schránky</string>
   <string name="request_coins_share_dialog_title">Sdílet požadavek na Bitcoiny…</string>
-  <string name="request_coins_no_local_app_msg">Žádná další Bitcoin aplikace nebyla nalezena</string>
+  <string name="request_coins_no_local_app_msg">Žádná další DynamicCoin aplikace nebyla nalezena</string>
   <string name="request_coins_options_local_app_title">Požadavek z lokální aplikace</string>
   <string name="address_book_activity_title">Adresář</string>
   <string name="address_book_list_receiving_title">Vaše adresy</string>
@@ -174,8 +174,8 @@
   <string name="export_keys_dialog_success"><![CDATA[<p>Vaše peněženka byla zazálohována do <tt>%s</tt></p><p>Pokud vaše zařízení má vyměnitelnou SD kartu, tak záloha <i>by měla </i> být na této kartě. Vyndejte ji a uschovejte ji na bezpečném místě. Pokud karta <i>není</i> vyměnitelná, bude potřeba aby jste přesunuly zálohu na jiné zařízení.</p><p><b>Pokud je záloha pouze na vašem zařízení tak se vystavujete riziku že ztratíte oboje zároveň!</b></p><p>Každopádně se ujistěte, že si zapamatujete heslo. Přejete si zazálohovat peněženku nyní?</p>]]></string>
   <string name="export_keys_dialog_failure">Vaše peněženka nebyla zazálohována:\n%s</string>
   <string name="export_keys_dialog_button_archive">Archivovat</string>
-  <string name="export_keys_dialog_mail_subject">Bitcoin Wallet záloha</string>
-  <string name="export_keys_dialog_mail_text">Připojený zašifrovaný soubor obsahuje Bitcoin privátní klíče a měl by být vždy na bezpečném místě. Nezapomeňte šifrovací heslo!</string>
+  <string name="export_keys_dialog_mail_subject">DynamicCoin Wallet záloha</string>
+  <string name="export_keys_dialog_mail_text">Připojený zašifrovaný soubor obsahuje DynamicCoin privátní klíče a měl by být vždy na bezpečném místě. Nezapomeňte šifrovací heslo!</string>
   <string name="export_keys_dialog_mail_intent_chooser">Archivovat peněženku pomocí…</string>
   <string name="export_keys_dialog_mail_intent_failed">Archivace peněženky selhala.</string>
   <string name="import_export_keys_dialog_password">heslo</string>
@@ -202,7 +202,7 @@
   <string name="scan_camera_problem_dialog_message">Problém s kamerou. Pravděpodobně je potřeba aby jste zrestartoval zařízení.</string>
   <string name="input_parser_io_error">Nelze přečíst data:\n%s</string>
   <string name="input_parser_cannot_classify">Nelze rozpoznat vstup:\n%s</string>
-  <string name="input_parser_invalid_bitcoin_uri">Nevalidní Bitcoin URI:\n%s</string>
+  <string name="input_parser_invalid_bitcoin_uri">Nevalidní DynamicCoin URI:\n%s</string>
   <string name="input_parser_invalid_address">Obdržená neplatná bitcoinová adresa!\n(Nemícháte mainnet/testnet?)</string>
   <string name="input_parser_unverifyable_paymentrequest">Nelze ověřit požadavek na platbu:\n%s</string>
   <string name="input_parser_invalid_paymentrequest">Neplatný požadavek na platbu:\n%s</string>

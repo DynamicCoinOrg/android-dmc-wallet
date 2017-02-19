@@ -4,11 +4,11 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			V ľavej hornej časti obrazovky je Vaša aktuálna Bitcoin adresa, túto adresu potrebuje poznať odosielateľ, aby Vám mohol poslať Bitcoiny.
+			V ľavej hornej časti obrazovky je Vaša aktuálna DynamicCoin adresa, túto adresu potrebuje poznať odosielateľ, aby Vám mohol poslať Bitcoiny.
 			Kliknutím na adresu ju môžte zmeniť.
 		</p>
 		<p>
-			QR kód na pravej strane obsahuje Vašu Bitcoin adresu, odosielateľ ho môže jednoducho naskenovať.
+			QR kód na pravej strane obsahuje Vašu DynamicCoin adresu, odosielateľ ho môže jednoducho naskenovať.
 			Kliknite na QR kód, aby ste ho zväčšili.
 		</p>
 		<p>
@@ -31,7 +31,7 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Na tejto obrazovke môžete vyžiadať Bitcoiny od niekoho iného (kto má nainštalovanú aplikáciu Bitcoin Wallet).
+			Na tejto obrazovke môžete vyžiadať Bitcoiny od niekoho iného (kto má nainštalovanú aplikáciu DynamicCoin Wallet).
 		</p>
 		<p>
 			Najprv zadajte sumu Bitcoinov, ktoré chcete vyžiadať.
@@ -39,7 +39,7 @@
 		<p>
 			Potom dajte druhej strane naskenovať vygenerovaný QR kód
 			alebo môžte svoju žiadosť poslať použitím tlačidla zdieľať.
-			Druhá strana potom klikne na Bitcoin URL.
+			Druhá strana potom klikne na DynamicCoin URL.
 		</p>
 		<p>
 			V oboch prípadoch druhá strana uvidí predvyplnenú obrazovku na odosielanie Bitcoinov.
@@ -51,12 +51,12 @@
 <![CDATA[
 		<p>
 			Práve ste začali proces odosielania Bitcoinov.
-			Dostali ste sa sem z hlavnej obrazovky alebo kliknutím na Bitcoin adresu v prehliadači.
+			Dostali ste sa sem z hlavnej obrazovky alebo kliknutím na DynamicCoin adresu v prehliadači.
 		</p>
 		<p>
 			Najprv zadajte adresu, na ktorú chcete odoslať platbu.
 			Ak sa adresa nachádza v adresári, tak sa automaticky doplní.
-			Kliknutím na ikonu fotoaparátu môžete naskenovať QR kód s Bitcoin adresou alebo požiadavkou na zaplatenie.
+			Kliknutím na ikonu fotoaparátu môžete naskenovať QR kód s DynamicCoin adresou alebo požiadavkou na zaplatenie.
 		</p>
 		<p>
 			Ďalej vidíte koľko Bitcoinov môžete aktuálne minúť.
