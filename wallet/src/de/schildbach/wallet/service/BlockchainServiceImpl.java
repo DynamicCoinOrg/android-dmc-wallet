@@ -35,21 +35,8 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import javax.annotation.Nullable;
 
-import org.bitcoinj.core.AbstractPeerEventListener;
-import org.bitcoinj.core.Address;
-import org.bitcoinj.core.Block;
-import org.bitcoinj.core.BlockChain;
-import org.bitcoinj.core.CheckpointManager;
-import org.bitcoinj.core.Coin;
-import org.bitcoinj.core.Peer;
-import org.bitcoinj.core.PeerEventListener;
-import org.bitcoinj.core.PeerGroup;
-import org.bitcoinj.core.Sha256Hash;
-import org.bitcoinj.core.StoredBlock;
-import org.bitcoinj.core.Transaction;
+import org.bitcoinj.core.*;
 import org.bitcoinj.core.TransactionConfidence.ConfidenceType;
-import org.bitcoinj.core.Wallet;
-import org.bitcoinj.core.WalletEventListener;
 import org.bitcoinj.net.discovery.DnsDiscovery;
 import org.bitcoinj.net.discovery.PeerDiscovery;
 import org.bitcoinj.net.discovery.PeerDiscoveryException;
@@ -631,6 +618,8 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 		catch (final BlockStoreException x)
 		{
 			throw new Error("blockchain cannot be created", x);
+		} catch (final DmcSystemException x) {
+			throw new Error("blockchain cannot be created due to dmc system error", x);
 		}
 
 		final IntentFilter intentFilter = new IntentFilter();
