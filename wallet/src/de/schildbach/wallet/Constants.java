@@ -77,8 +77,8 @@ public final class Constants
 	/** Maximum size of backups. Files larger will be rejected. */
 	public static final long BACKUP_MAX_CHARS = 10000000;
 
-	private static final String EXPLORE_BASE_URL_PROD = "http://explorer.dynamiccoin.net/chain/Dynamiccoin";
-	private static final String EXPLORE_BASE_URL_TEST = "http://explorer.dynamiccoin.net/chain/Dynamiccoin-testnet";
+	private static final String EXPLORE_BASE_URL_PROD = "http://explorer.dynamiccoin.net/chain/Dynamiccoin/";
+	private static final String EXPLORE_BASE_URL_TEST = "http://explorer.dynamiccoin.net/chain/Dynamiccoin-testnet/";
 	/** Base URL for browsing transactions, blocks or addresses. */
 	public static final String EXPLORE_BASE_URL = NETWORK_PARAMETERS.getId().equals(NetworkParameters.ID_MAINNET) ? EXPLORE_BASE_URL_PROD
 			: EXPLORE_BASE_URL_TEST;
