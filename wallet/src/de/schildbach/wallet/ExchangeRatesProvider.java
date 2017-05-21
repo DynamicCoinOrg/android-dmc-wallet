@@ -324,8 +324,8 @@ public class ExchangeRatesProvider extends ContentProvider
 				for (final Iterator<String> i = head.keys(); i.hasNext();)
 				{
 					final String currencyCode = Strings.emptyToNull(i.next());
-					if (currencyCode != null && !"timestamp".equals(currencyCode) && !MonetaryFormat.CODE_BTC.equals(currencyCode)
-							&& !MonetaryFormat.CODE_MBTC.equals(currencyCode) && !MonetaryFormat.CODE_UBTC.equals(currencyCode))
+					if (currencyCode != null && !"timestamp".equals(currencyCode) && !MonetaryFormat.CODE_DMC.equals(currencyCode)
+							&& !MonetaryFormat.CODE_MDMC.equals(currencyCode) && !MonetaryFormat.CODE_UDMC.equals(currencyCode))
 					{
 						final JSONObject o = head.getJSONObject(currencyCode);
 
