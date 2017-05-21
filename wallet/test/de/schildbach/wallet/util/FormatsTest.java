@@ -87,10 +87,10 @@ public class FormatsTest
 		assertEquals("0.00", symbol.group(Formats.PATTERN_GROUP_SIGNIFICANT));
 		assertNull(symbol.group(Formats.PATTERN_GROUP_INSIGNIFICANT));
 
-		final Matcher code = Formats.PATTERN_MONETARY_SPANNABLE.matcher("BTC 0.00");
+		final Matcher code = Formats.PATTERN_MONETARY_SPANNABLE.matcher("DMC 0.00");
 		assertTrue(code.find());
 		assertNotNull(code.group(Formats.PATTERN_GROUP_PREFIX));
-		assertEquals("BTC", code.group(Formats.PATTERN_GROUP_PREFIX));
+		assertEquals("DMC", code.group(Formats.PATTERN_GROUP_PREFIX));
 		assertNotNull(code.group(Formats.PATTERN_GROUP_SIGNIFICANT));
 		assertEquals("0.00", code.group(Formats.PATTERN_GROUP_SIGNIFICANT));
 		assertNull(code.group(Formats.PATTERN_GROUP_INSIGNIFICANT));
