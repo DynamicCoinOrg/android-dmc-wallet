@@ -1,36 +1,35 @@
-<b>Have your Bitcoins always with you, in your pocket!</b> You pay by quickly scanning a QR code. As a merchant, you receive payments reliably and instantly. Bitcoin Wallet is the first mobile Bitcoin app, and arguably also the most secure!
+<b>Have your DynamicCoins always with you, in your pocket!</b> You pay by quickly scanning a QR code. As a merchant, you receive payments reliably and instantly. DynamicCoin Wallet is the first mobile DynamicCoin app, and arguably also the most secure!
 
 
 <b>FEATURES</b>
 
 • No registration, web service or cloud needed! This wallet is de-centralized and peer to peer.
-• Display of Bitcoin amount in BTC, mBTC and µBTC.
+• Display of DynamicCoin amount in DMC, mDMC and µDMC.
 • Conversion to and from national currencies.
-• Sending and receiving of Bitcoin via NFC, QR codes or Bitcoin URLs.
-• Address book for regularly used Bitcoin addresses.
+• Sending and receiving of DynamicCoin via NFC, QR codes or DynamicCoin URLs.
+• Address book for regularly used DynamicCoin addresses.
 • When you're offline, you can still pay via Bluetooth.
 • System notification for received coins.
 • Sweeping of paper wallets (e.g. those used for cold storage).
-• App widget for Bitcoin balance.
+• App widget for DynamicCoin balance.
 
 
 <b>CONTRIBUTE</b>
 
-Bitcoin Wallet is <b>open source</b> and <b>free software</b>. License: GPLv3
+DynamicCoin Wallet is <b>open source</b> and <b>free software</b>. License: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Our source code is available at GitHub:
-https://github.com/schildbach/bitcoin-wallet
+https://github.com/DynamicCoinOrg/android-dmc-wallet
 
 All translations are managed via Transifex:
-https://www.transifex.com/projects/p/bitcoin-wallet/
+https://www.transifex.com/projects/p/android-dmc-wallet/
 
 
 <b>TESTIMONIALS</b>
 
-• Many mobile wallets base their code on Bitcoin Wallet. Examples: blockchain.info, Hive and KnC.
-• Recommended mobile wallet by https://bitcoin.org
-• Recommended by BitPay.
+• Many mobile wallets base their code on DynamicCoin Wallet. Examples: .
+• Recommended mobile wallet by https://dynamiccoin.org
 
 
 <i>Use at your own risk!</i>
