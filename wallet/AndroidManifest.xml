@@ -92,7 +92,7 @@
 			<intent-filter android:label="@string/send_coins_activity_title" >
 				<action android:name="android.intent.action.VIEW" />
 
-				<data android:scheme="bitcoin" />
+				<data android:scheme="dynamiccoin" />
 
 				<category android:name="android.intent.category.DEFAULT" />
 				<category android:name="android.intent.category.BROWSABLE" />
@@ -100,21 +100,21 @@
 			<intent-filter android:label="@string/send_coins_activity_title" >
 				<action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
-				<data android:scheme="bitcoin" />
+				<data android:scheme="dynamiccoin" />
 
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 			<intent-filter android:label="@string/send_coins_activity_title" >
 				<action android:name="android.intent.action.VIEW" />
 
-				<data android:mimeType="application/bitcoin-paymentrequest" />
+				<data android:mimeType="application/dynamiccoin-paymentrequest" />
 
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 			<intent-filter android:label="@string/send_coins_activity_title" >
 				<action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
-				<data android:mimeType="application/bitcoin-paymentrequest" />
+				<data android:mimeType="application/dynamiccoin-paymentrequest" />
 
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
@@ -163,7 +163,7 @@
 
 				<category android:name="android.intent.category.DEFAULT" />
 
-				<data android:mimeType="application/x-bitcoin-wallet-backup" />
+				<data android:mimeType="application/x-dynamiccoin-wallet-backup" />
 			</intent-filter>
 		</activity>
 		<activity
@@ -197,7 +197,7 @@
 
 		<receiver
 			android:name="de.schildbach.wallet.WalletBalanceWidgetProvider"
-			android:label="Bitcoin Wallet Balance" >
+			android:label="DynamicCoin Wallet Balance" >
 			<intent-filter>
 				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 			</intent-filter>
