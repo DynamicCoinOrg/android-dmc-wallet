@@ -140,10 +140,12 @@ public class ExchangeRatesProvider extends ContentProvider
 		this.userAgent = WalletApplication.httpUserAgent(WalletApplication.packageInfoFromContext(context).versionName);
 
 		final ExchangeRate cachedExchangeRate = config.getCachedExchangeRate();
+		final ExchangeRate dmcExchangeRate = new ExchangeRate(new org.bitcoinj.utils.ExchangeRate(Coin.valueOf(1,0), Fiat.valueOf("USD", 10000)), null);
 		if (cachedExchangeRate != null)
 		{
 			exchangeRates = new TreeMap<String, ExchangeRate>();
 			exchangeRates.put(cachedExchangeRate.getCurrencyCode(), cachedExchangeRate);
+			exchangeRates.put(dmcExchangeRate.getCurrencyCode(), dmcExchangeRate);
 		}
 
 		return true;
@@ -167,10 +169,10 @@ public class ExchangeRatesProvider extends ContentProvider
 		if (!offline && (lastUpdated == 0 || now - lastUpdated > UPDATE_FREQ_MS))
 		{
 			Map<String, ExchangeRate> newExchangeRates = null;
-			if (newExchangeRates == null)
-				newExchangeRates = requestExchangeRates(BITCOINAVERAGE_URL, userAgent, BITCOINAVERAGE_SOURCE, BITCOINAVERAGE_FIELDS);
-			if (newExchangeRates == null)
-				newExchangeRates = requestExchangeRates(BLOCKCHAININFO_URL, userAgent, BLOCKCHAININFO_SOURCE, BLOCKCHAININFO_FIELDS);
+//			if (newExchangeRates == null)
+//				newExchangeRates = requestExchangeRates(BITCOINAVERAGE_URL, userAgent, BITCOINAVERAGE_SOURCE, BITCOINAVERAGE_FIELDS);
+//			if (newExchangeRates == null)
+//				newExchangeRates = requestExchangeRates(BLOCKCHAININFO_URL, userAgent, BLOCKCHAININFO_SOURCE, BLOCKCHAININFO_FIELDS);
 
 			if (newExchangeRates != null)
 			{
