@@ -151,7 +151,8 @@ public class ExchangeRatesProvider extends ContentProvider
 
 	public static Uri contentUri(final String packageName, final boolean offline)
 	{
-		final Uri.Builder uri = Uri.parse("content://" + packageName + '.' + "exchange_rates").buildUpon();
+		final String authority = "org.dynamiccoin.wallet";
+		final Uri.Builder uri = Uri.parse("content://" + authority + '.' + "exchange_rates").buildUpon();
 		if (offline)
 			uri.appendQueryParameter(QUERY_PARAM_OFFLINE, "1");
 		return uri.build();
