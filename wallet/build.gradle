@@ -28,6 +28,10 @@ ext {
 }
 
 android {
+    defaultConfig {
+        applicationId "org.dynamiccoin.wallet"
+    }
+
     compileSdkVersion 'android-16'
     buildToolsVersion '22.0.1'
 
