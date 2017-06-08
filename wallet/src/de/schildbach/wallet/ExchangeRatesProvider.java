@@ -169,10 +169,6 @@ public class ExchangeRatesProvider extends ContentProvider
 		{
 			Map<String, ExchangeRate> newExchangeRates = null;
 
-			final ExchangeRate dmcExchangeRate = new ExchangeRate(new org.bitcoinj.utils.ExchangeRate(Coin.valueOf(1,0), Fiat.valueOf("USD", 10000)), null);
-			exchangeRates.put(dmcExchangeRate.getCurrencyCode(), dmcExchangeRate);
-			newExchangeRates = exchangeRates;
-
 //			if (newExchangeRates == null)
 //				newExchangeRates = requestExchangeRates(BITCOINAVERAGE_URL, userAgent, BITCOINAVERAGE_SOURCE, BITCOINAVERAGE_FIELDS);
 //			if (newExchangeRates == null)
@@ -186,6 +182,11 @@ public class ExchangeRatesProvider extends ContentProvider
 				final ExchangeRate exchangeRateToCache = bestExchangeRate(config.getExchangeCurrencyCode());
 				if (exchangeRateToCache != null)
 					config.setCachedExchangeRate(exchangeRateToCache);
+			} else {
+				exchangeRates = new TreeMap<String, ExchangeRate>();
+
+				final ExchangeRate dmcExchangeRate = new ExchangeRate(new org.bitcoinj.utils.ExchangeRate(Coin.valueOf(1,0), Fiat.valueOf("USD", 10000)), null);
+				exchangeRates.put(dmcExchangeRate.getCurrencyCode(), dmcExchangeRate);
 			}
 		}
 
