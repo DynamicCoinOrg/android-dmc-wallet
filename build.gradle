@@ -1,10 +1,12 @@
+apply plugin: 'java'
+
 buildscript {
     repositories {
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath 'com.android.tools.build:gradle:3.0.1'
         classpath('fr.avianey.androidsvgdrawable:gradle-plugin:1.0.2') {
             exclude group: 'xerces'
         }
@@ -15,4 +17,8 @@ allprojects {
    repositories {
        jcenter()
    }
+}
+compileJava {
+    sourceCompatibility '1.7'
+    targetCompatibility '1.7'
 }
